@@ -1,11 +1,11 @@
 {
-  "name": "trabalhotecweb",
+  "name": "tec-web",
   "version": "1.0.0",
   "private": false,
   "scripts": {
     "start": "node app"
   },
-  "description": "trabalhotecweb",
+  "description": "tec-web",
   "author": {
     "name": "Pedro"
   },
@@ -20,8 +20,5 @@
     "mysql": "^2.14.1",
     "pug": "~2.0.0-beta11",
     "uuid": "^3.1.0"
-  },
-  "engines": {
-    "node": "~6.10.x"
   }
 }

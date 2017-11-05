@@ -1,0 +1,151 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    line-height: 1;
+    background-color: rgb(255, 197, 91);
+    font-family: Tahoma, verdana;
+    color: #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a:link, a:visited {
+    color: #990000;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+.post-meta {
+    clear: both;
+    height: auto;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e4e4e4;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-meta-single {
+    padding: 10px;
+    clear: both;
+    height: auto;
+    width: auto;
+    margin: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e4e4e4;
+}
+
+.post-info {
+    display: block;
+    clear: both;
+    height: auto;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e4e4e4;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 2px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+    .post-info h1 {
+        padding: 0;
+        clear: both;
+        height: auto;
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        color: #990000;
+        text-decoration: none;
+        font-style: normal;
+        line-height: 30px;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 3px;
+        margin-left: 0;
+    }
+
+    .post-info h2 {
+        margin: 0;
+        padding: 0;
+        clear: both;
+        height: auto;
+        width: 100%;
+        font-size: 25px;
+        font-weight: bold;
+        color: #000000;
+        text-decoration: none;
+        font-style: normal;
+        line-height: 30px;
+    }
+
+        .post-info h2 a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+            .post-info h2 a:hover {
+                color: #000000;
+                text-decoration: none;
+            }
+
+.post-date {
+    margin: 10px 0 1px 0;
+    padding: 0;
+    clear: both;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #20a29c;
+    line-height: 16px;
+}
+
+.post-content {
+    font-size: 18px;
+    margin: 0;
+    clear: both;
+    height: auto;
+    width: 100%;
+    line-height: 22px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+    padding-left: 0;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+    .post-content img {
+        text-align: left;
+        float: left;
+        margin: 10px 10px 8px 0;
+    }
+
+    .box-body {
+        padding: 15px;
+        margin: 20px;
+        background-color: #fff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        border-color: #ddd;
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }

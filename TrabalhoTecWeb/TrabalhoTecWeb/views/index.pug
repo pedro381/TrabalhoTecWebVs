@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  each evento in rows
+    .post-meta
+      .post-info
+        h2
+          a(href='/Evento/'+ evento.EventosId, title=evento.Titulo) #{evento.Titulo}
+        .post-date
+          | O evento ocorrer&aacute; no dia #{evento.Data} em #{evento.Local}
+        .post-content
+          img.alignleft.wp-post-image(width='250', height='114', src='Imagens/' + evento.Imagem)
+          | #{evento.Descricao}

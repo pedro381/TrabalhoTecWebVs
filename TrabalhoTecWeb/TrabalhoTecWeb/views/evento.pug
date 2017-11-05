@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= evento.Titulo
+  .post-meta
+    .post-info
+      .post-date
+        | Data: #{evento.Data} Local: #{evento.Local}
+      .post-content
+        img.alignleft.wp-post-image(src='../Imagens/' + evento.Imagem)
+        | Descricao: #{evento.Descricao}

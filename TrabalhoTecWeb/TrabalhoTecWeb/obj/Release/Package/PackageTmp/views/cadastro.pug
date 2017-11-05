@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  form(action='Cadastro', method='post', enctype='multipart/form-data')
+    .box
+      .box-body
+        .form-group
+          label(for='titulo') T&iacute;tulo
+          input.form-control(type='text', name='titulo')
+        .form-group
+          label(for='data') Data
+          input.form-control(type='date', name='data')
+        .form-group
+          label(for='local') Local
+          input.form-control(type='text', name='local')
+        .form-group
+          label(for='descricao') Descri&ccedil;&atilde;o
+          textarea#descricao.form-control(rows='3', name='descricao')
+        .form-group
+          label(for='imagem') Imagem
+          input.form-control-file(type='file', name='imagem', aria-describedby='fileHelp')
+          small#fileHelp.form-text.text-muted Escolha a Imagem do Evento.
+        .form-group
+          button.btn.btn-primary(type='submit') Cadastrar

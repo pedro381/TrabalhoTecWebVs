@@ -1,0 +1,2 @@
+C:\Users\Pedro\Desktop\Trabalhos\TrabalhoTecWeb\TrabalhoTecWeb\obj\Debug\TrabalhoTecWeb.njsproj.CoreCompileInputs.cache
+C:\Users\Pedro\Desktop\Trabalhos\TrabalhoTecWeb\TrabalhoTecWeb\bin\Microsoft.NodejsTools.WebRole.dll
